@@ -19,8 +19,8 @@
 ---
 
 ## **Medium:**
-* [Subarray with max bitwise](/Solutions/2-Medium/1.c) \
-    **Explaination** : N/A
+* [Subarray with max bitwise](/Solutions/2-Medium/1.cpp) \
+    **Explaination** : This solution is driven by the intuition that the maximum AND will always be with maximum value in the array. So I simply solved the problem of finding the largest subarray full of the element with the maximum value in the array. To do this I first found the maximum value and then simply ran a loop to find the longest string of that value and returned its length.
 
 * [Minimum divison of groups](/Solutions/2-Medium/2.c) \
     **Explaination** : N/A
